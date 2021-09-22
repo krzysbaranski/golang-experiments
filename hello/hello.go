@@ -2,8 +2,8 @@ package main
 
 import (
     "fmt"
-    "log"
     "github.com/krzysbaranski/golang-experiments/greetings"
+    "log"
 )
 
 func main() {
@@ -24,6 +24,4 @@ func main() {
     for _, g := range greets {
         fmt.Println(g)
     }
-
-
 }

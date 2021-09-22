@@ -15,4 +15,15 @@ func main() {
         log.Fatal(err)
     }
     fmt.Println(message)
+
+    names := []string{"Krzys", "Jane"}
+    greets, err := greetings.Hellos(names)
+    if err != nil {
+        log.Fatal(err)
+    }
+    for _, g := range greets {
+        fmt.Println(g)
+    }
+
+
 }
